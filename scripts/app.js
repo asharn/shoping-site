@@ -2,8 +2,8 @@ angular
 	.module("ngClassifieds", ["ngMaterial", "ui.router"])
 	.config(function($mdThemingProvider, $stateProvider){
 		$mdThemingProvider.theme('default')
-						  .primaryPalette('blue')
-						  .accentPalette('red');
+						  .primaryPalette('red')
+						  .accentPalette('blue');
 
 		$stateProvider
 			.state('classifieds',{
